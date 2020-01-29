@@ -8,14 +8,14 @@
 function config($key = '')
 {
     $config = [
-        'name' => 'xkdc comics',
+        'name' => 'Test',
         'XKCDURL' => 'http://xkcd.com/info.0.json',
         'pretty_uri' => false,
         'site_url' => 'https://team-alpaca.herokuapp.com//',
         'nav_menu' => [
-            '' => 'Home',
-            'randomImg' => 'A random comic',
-            'aComic' => 'A Comic'
+            '' => 'Home'/*,
+            /*'randomImg' => 'A random comic',
+            'aComic' => 'A Comic'*/
         ],
         'template_path' => 'template',
         'content_path' => 'content',
