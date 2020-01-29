@@ -24,14 +24,13 @@ $urls = array('home.php');
 
 function site_name()
 {
-    /*echo config('name');*/
-    echo('home.php');
+    echo config('name');
 }
 
 /**
  * Displays site url provided in conig.
  */
- /*
+ 
 function site_url()
 {
     echo config('site_url');
