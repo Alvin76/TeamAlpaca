@@ -8,9 +8,9 @@
 function config($key = '')
 {
     $config = [
-        'name' => 'Test',
-        'XKCDURL' => 'http://xkcd.com/info.0.json',
-        'pretty_uri' => false,
+        'name' => 'Team Alpaca!',
+        /*'XKCDURL' => 'http://xkcd.com/info.0.json',
+        'pretty_uri' => false,*/
         'site_url' => 'https://team-alpaca.herokuapp.com//',
         'nav_menu' => [
             '' => 'Home'/*,

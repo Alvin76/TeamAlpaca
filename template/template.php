@@ -16,12 +16,14 @@
     </header>
 
     <article>
-        <h2><?php page_title(); ?></h2>
-        <?php page_content(); ?>
+        <h2>COBOL</h2>
+        <p> COBOL stands for COmmon Business Oriented Language. COBOL dates back to 1959 where it was made from the FLOW-MATIC.  For more amazing history on COBOL you can find it here at https://en.wikipedia.org/wiki/COBOL </p>
+        <!--<h2> < ?php page_title(); ?></h2>
+        < ?php page_content(); ?>-->
     </article>
 
     <footer>
-        <small>&copy;<?php echo date('Y'); ?> <?php site_name(); ?>.<br><?php site_version(); ?></small>
+        <small>&copy;<?php echo date('Y'); ?> Team Alpaca </small>
     </footer>
 </div>
 </body>
