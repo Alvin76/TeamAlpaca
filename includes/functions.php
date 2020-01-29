@@ -21,10 +21,11 @@ $urls = array('home.php');
 /**
  * Displays site name.
  */
- /*
+
 function site_name()
 {
-    echo config('name');
+    /*echo config('name');*/
+    echo('home.php');
 }
 
 /**
