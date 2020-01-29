@@ -3,7 +3,7 @@
 $websiteURL = 'https://team-alpaca.herokuapp.com/';
 $authors = array( 'Adam','Taylor','Evan');
 $nav_items = array('Home Page');
-$urls = array('Home.php');
+$urls = array('home.php');
 
 /**
 * http://xkcd.com/info.0.json (current comic)
