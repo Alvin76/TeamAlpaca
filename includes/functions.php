@@ -1,9 +1,9 @@
 <?php
 
-$websiteURL = 'http://assignment2-for-php.herokuapp.com/';
-$authors = array( 'Adam');
-$nav_items = array('Home Page', 'Todays Comic', 'Random Comic');
-$urls = array('Home.php', 'todays.php', 'random.php');
+$websiteURL = 'https://team-alpaca.herokuapp.com/';
+$authors = array( 'Adam','Taylor','Evan');
+$nav_items = array('Home Page');
+$urls = array('Home.php');
 
 /**
 * http://xkcd.com/info.0.json (current comic)
@@ -55,10 +55,11 @@ function head(){
   </head>';
   echo $head;
 }
+/*
 function getTodaysComic(){
 $url = "https://xkcd.com/info.0.json";
-/**dont change
-*/
+***dont change
+*
 $handle = curl_init();
 curl_setopt($handle, CURLOPT_URL, $url);
 curl_setopt_array($handle,
@@ -71,7 +72,7 @@ $output = curl_exec($handle);
 $response = json_decode($output, true);
 curl_close($handle);
 /*dont change
-*/
+*
 
 echo $response['title'].'<br>';
 echo $response['year'].'<br>';
@@ -93,7 +94,7 @@ function getRandomComic(){
   $response = json_decode($output, true);
   curl_close($handle);
   /*dont change
-  */
+  *
 
   echo $response['title'].'<br>';
   echo $response['year'].'<br>';

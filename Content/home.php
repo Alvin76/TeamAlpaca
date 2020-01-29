@@ -11,16 +11,23 @@
   </head>
   <body>
     <header>
-      <h1>  This is Adam's assignment2 website! </h1>
+      <h1> TEAM ALPACA! </h1>
     </header>
     <nav>
 
     </nav>
     <main>
       <?php nav_bar(); ?>
-      <?php getTodaysComic(); ?>
+      <h1>COBOL</h1>
+      <p>!--Note add about cobol here please--></p>
+      <p></p>
+      <h1>Who is team Alpaca?</h1>
+      <p>Adam, Taylor, Evan</p>
+      <!--we so totaly should put our old about us page here from team alpha :D -->
     </main>
-    <footer></footer>
+    <footer>
+
+    </footer>
 
 
 
