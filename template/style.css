@@ -1,0 +1,37 @@
+
+.wrap {
+    max-width: 720px;
+    margin: 50px auto;
+    padding: 30px 40px;
+    text-align: center;
+    box-shadow: 0 4px 25px -4px #9da5ab;
+}
+article {
+    padding: 40px;
+    line-height: 150%;
+    text-align: left;
+}
+
+nav .item {
+    text-decoration: none;
+}
+nav .active {
+    border-bottom: 1px solid;
+}
+body {
+   padding-bottom:60px;   /* Height of the footer */
+   background-color: #FFFFFF;
+}
+footer {
+   text-align: center;
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background-color: white;
+}
+
+.center {
+  text-align: center;
+  align-content: center;
+}
