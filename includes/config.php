@@ -13,7 +13,8 @@ function config($key = '')
         'pretty_uri' => false,*/
         'site_url' => 'https://team-alpaca.herokuapp.com//',
         'nav_menu' => [
-            '' => 'Home'/*,
+            '' => 'Home',
+            'About_Us' => 'About_Us'
             /*'randomImg' => 'A random comic',
             'aComic' => 'A Comic'*/
         ],
