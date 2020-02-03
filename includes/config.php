@@ -14,7 +14,7 @@ function config($key = '')
         'site_url' => 'https://team-alpaca.herokuapp.com//',
         'nav_menu' => [
             '' => 'Home',
-            'About_Us' => 'About_Us'
+            'About_Us' => 'AboutUs'
             /*'randomImg' => 'A random comic',
             'aComic' => 'A Comic'*/
         ],
