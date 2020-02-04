@@ -2,10 +2,12 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <?php require '../includes/functions.php';?>
     <title>Welcome!</title>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../template/home.css">
   </head>
   <body>
 
@@ -28,6 +30,6 @@
     	<div class="container-fluid home-content2">
     		<p><span>Footer</span> for all things <span>Alpaca</span>, including our <span>repositories</span> and <span>future projects</span>.</p>
     	</div>
-      
+
   </body>
 </html>

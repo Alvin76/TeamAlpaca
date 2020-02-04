@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-  <?php require '../Backend/functions.php';?>
+  <?php require '../includes/functions.php';?>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <link href="../CSS/style.css" rel="stylesheet">

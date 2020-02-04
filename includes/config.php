@@ -11,7 +11,7 @@ function config($key = '')
         'name' => 'Team Alpaca!',
         /*'XKCDURL' => 'http://xkcd.com/info.0.json',
         'pretty_uri' => false,*/
-        'site_url' => 'https://team-alpaca.herokuapp.com//',
+        'site_url' => 'https://team-alpaca.herokuapp.com/',
         'nav_menu' => [
             '' => 'Home',
             'AboutUs' => 'AboutUs'
@@ -19,7 +19,7 @@ function config($key = '')
             'aComic' => 'A Comic'*/
         ],
         'template_path' => 'template',
-        'content_path' => 'content',
+        'content_path' => 'Content',
         'version' => 'v3.0',
     ];
     return isset($config[$key]) ? $config[$key] : null;
