@@ -19,7 +19,7 @@ function config($key = '')
             'aComic' => 'A Comic'*/
         ],
         'template_path' => 'template',
-        'content_path' => 'Content',
+        'Content_path' => 'Content',
         'version' => 'v3.0',
     ];
     return isset($config[$key]) ? $config[$key] : null;
