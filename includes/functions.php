@@ -30,7 +30,7 @@ function site_name()
 /**
  * Displays site url provided in conig.
  */
- 
+
 function site_url()
 {
     echo config('site_url');
@@ -136,12 +136,14 @@ function page_title()
  */
 function page_content()
 {
+
     $page = isset($_GET['page']) ? $_GET['page'] : 'home';
     $path = getcwd() . '/' . config('Content_path') . '/' . $page . '.php';
     if (! file_exists($path)) {
         $path = getcwd() . '/' . config('Content_path') . '/404.php';
     }
-    echo file_get_contents($path);
+  echo ($path);
+  echo file_get_contents($path);
 }
 
 /**
