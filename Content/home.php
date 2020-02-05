@@ -13,7 +13,7 @@
 
     <div class="container-fluid home-main">
     		<h1>Team Alpaca <span class="blinker">.</span></h1>
-    		<button type="button" class="btn btn-default">About Us</button>
+    		<a href="https://team-alpaca.herokuapp.com/Content/AboutUs.php"><button type="button" class="btn btn-default">About Us</button></a>
     	</div>
     	<div class="container-fluid home-content1">
     		<div class="row">
