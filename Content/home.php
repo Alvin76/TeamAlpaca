@@ -19,7 +19,9 @@
     		<div class="row">
     			<div class="col-md-6 content1-left">
     				<h3>Why Use COBOL <span class="blinker">?</span></h3>
-    				<p>Adam will tell us here, he's super knowledgable!</p>
+    				<p> COBOL is grate Language to make reports in and keep track of financial data, the language was built with this in mind and is the primary reason why it hasn’t fallen out of data even though it has been declared dead in 1969, late 1970’s, 1980’s and 1990. Other languages like C, C++, C#, Java, Ruby, and Groovy. It still remands very useful for reports and financial data.
+https://www.ibm.com/developerworks/community/blogs/31c890c6-ace1-4eeb-af6b-5950f3a1a5d1/entry/Should_we_still_use_COBOL?lang=en
+</p>
     				<!-- <div class="content1-left"></div> -->
     			</div>
     			<div class="col-md-6 content1-right">
