@@ -15,7 +15,7 @@
       <div class="container">
         <main>
           <div class="text-center">
-            <article>Welcome to our OMDB search website. </article>
+            <article>Welcome to our COBOL info website. </article>
             <img src='../Images/alpaca-stare.jpg' alt='photo of me' />
           </div>
           <div class="container">
