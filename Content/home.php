@@ -19,7 +19,7 @@
     		<div class="row">
     			<div class="col-md-6 content1-left">
     				<h3>Why Use COBOL <span class="blinker">?</span></h3>
-    				<p>Take it away, Adam!</p>1
+    				<p>Adam will tell us here, he's super knowledgable!</p>
     				<!-- <div class="content1-left"></div> -->
     			</div>
     			<div class="col-md-6 content1-right">
