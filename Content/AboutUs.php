@@ -9,7 +9,6 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   <?php head(); ?>
   <body>
-    <?php nav_bar(); ?>
 
     <!-- Page specific content will go down here. -->
     <div class="jumbotron jumbotron-fluid">
