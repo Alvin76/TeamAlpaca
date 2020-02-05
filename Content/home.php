@@ -13,13 +13,13 @@
 
     <div class="container-fluid home-main">
     		<h1>Team Alpaca <span class="blinker">.</span></h1>
-    		<button type="button" class="btn btn-default">About Us</button>
+    		<a href="https://team-alpaca.herokuapp.com/Content/AboutUs.php"><button type="button" class="btn btn-default">About Us</button></a>
     	</div>
     	<div class="container-fluid home-content1">
     		<div class="row">
     			<div class="col-md-6 content1-left">
     				<h3>Why Use COBOL <span class="blinker">?</span></h3>
-    				<p>Take it away, Adam!</p>1
+    				<p>Adam will tell us here, he's super knowledgable!</p>
     				<!-- <div class="content1-left"></div> -->
     			</div>
     			<div class="col-md-6 content1-right">
