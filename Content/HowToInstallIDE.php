@@ -43,13 +43,22 @@
       </div>
       <div class="LoggingOn">
         <h2>How to log on!</h2>
-        <p>First you need to request a login code from the system administrator Dr. Rogers is the system administrator for the CSU’s mainframe. After receiving a user ID you can now enter “logon CSU00QQ” into the mainframe (Please note the QQ is your user ID).  You should have something that looks like this</p>
-        <!--(Add IMG’s Here)-->
-        <p>At this screen we will type in your password, the default password is giving by Dr. Rogers, you will need to change your password to a new one that is no longer then 8char I recommend a 7 length password.  One you type in your password hit enter. You should get something that looks like this</p>
-        <!--(Add IMG’s Here)-->
-        <p>This is text showing the functions of your user profile program, it is not important to read but will required you hit enter, keep hitting enter until you get to this screen. </p>
-        <!--(Add IMG’s Here)-->
-        <p> Once you on this screen you have manage to successfully log into the mainframe! Congratulations! </p>
+        <p>
+          First you need to request a login code from the system administrator Dr. Rogers is the system administrator for the CSU’s mainframe. After receiving a user ID you can now enter “logon CSU00QQ” into the mainframe (Please note the QQ is your user ID).  You should have something that looks like this
+        </p>
+        <img class="Logon" src="../Images/Instalation/LogonTSO.PNG" alt="Logon Images">
+        <p>
+          At this screen we will type in your password, the default password is giving by Dr. Rogers, you will need to change your password to a new one that is no longer then 8char I recommend a 7 length password.  One you type in your password hit enter. You should get something that looks like this
+        </p>
+        <img class="Logon" src="../Images/Instalation/LogonPaswordLogin.PNG" alt="Logon Images">
+        <p>
+          This is text showing the functions of your user profile program, it is not important to read but will required you hit enter, keep hitting enter until you get to this screen.
+         </p>
+        <img class="Logon" src="../Images/Instalation/LogonRedText.PNG" alt="Logon Images">
+        <p>
+          Once you on this screen you have manage to successfully log into the mainframe! Congratulations!
+        </p>
+        <img class="Logon" src="../Images/Instalation/LogonMainScrean.PNG" alt="Logon Images">
       </div>
 
 
