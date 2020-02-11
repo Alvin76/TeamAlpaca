@@ -21,15 +21,23 @@
         <h2>How do I get TN3270?</h2>
         <p>
           How you get the TN3270 vista is by downloading it, here is a link for a download, once you have downloaded the client please click on it and the windows install wizard will open.
-          <!--(Add IMG’s Here)-->
+        </P>
+        <img class="Setup" src="../Images/Instalation/SetupIntroWizard.PNG" alt="Instalation Images">
+        <p>
           For the installation please click next, that major thing you need to know is if you want to change its installation location from the C Drive
-          <!--(Add IMG’s Here)-->
+        </p>
+        <img class="Setup" src="../Images/Instalation/SetupLocation.PNG" alt="Instalation Images">
+        <p>now Install the program</p>
+        <img class="Setup" src="../Images/Instalation/SetupInstall.PNG" alt="Instalation Images">
+        <p>
            After doing the installation click on the app to lunch it, you should get something that looks like this:
-          <!--(Add IMG’s Here)-->
+        </p>
+        <img class="Setup" src="../Images/Instalation/SetupTN3270.PNG" alt="Instalation Images">
+        <p>
           Once here we will enter the IP addresss 192.86.33.118 and change the port to 623, the other options changes the views of the green screen for now don’t change that. This is what it should look like.
-          <!--(Add IMG’s Here)-->
-          Once you done that and hit enter this is what it should look like
-          <!--(Add IMG’s Here)-->
+        </p>
+        <img class="Setup" src="../Images/Instalation/SetupTSOLogin.PNG" alt="Instalation Images">
+        <p id="Congrats">
           Congrats you have installed the TN3270!
         </p>
       </div>
