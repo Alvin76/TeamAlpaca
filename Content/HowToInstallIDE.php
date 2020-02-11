@@ -26,7 +26,7 @@
           <!--(Add IMG’s Here)-->
            After doing the installation click on the app to lunch it, you should get something that looks like this:
           <!--(Add IMG’s Here)-->
-          Once here we will enter the IP addresss (this) and change the port to 623, the other options changes the views of the green screen for now don’t change that. This is what it should look like.
+          Once here we will enter the IP addresss 192.86.33.118 and change the port to 623, the other options changes the views of the green screen for now don’t change that. This is what it should look like.
           <!--(Add IMG’s Here)-->
           Once you done that and hit enter this is what it should look like
           <!--(Add IMG’s Here)-->
