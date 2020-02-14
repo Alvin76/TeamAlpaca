@@ -22,15 +22,16 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
+            <a href="https://team-alpaca.herokuapp.com/Content/Home.php">Home
+
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a href="https://team-alpaca.herokuapp.com/Content/AboutUs.php">About</a>
+            <span class="sr-only">(current)</span>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">TN3270</a>
+            <a href="https://team-alpaca.herokuapp.com/Content/HowToInstallIDE.php">TN3270</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">COBOL</a>
