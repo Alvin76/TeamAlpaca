@@ -92,7 +92,7 @@
                             <div class="frontside">
                                 <div class="card">
                                     <div class="card-body text-center">
-                                        <p><img class=" img-fluid" src="src=../Images/alpacaEvan.jpeg" alt="alpacaEvan"></p>
+                                        <p><img class=" img-fluid" src="src=../Images/alpacaEvan.jpg" alt="alpacaEvan"></p>
                                         <h4 class="card-title">Evan</h4>
                                         <p class="card-text">Evan Jones</p>
                                         <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
