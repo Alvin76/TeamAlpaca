@@ -6,7 +6,7 @@
     <title>Welcome!</title>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../template/home.css">
   </head>
   <body>
@@ -14,6 +14,7 @@
     <div class="container-fluid home-main">
     		<h1>Team Alpaca <span class="blinker">.</span></h1>
     		<a href="https://team-alpaca.herokuapp.com/Content/AboutUs.php"><button type="button" class="btn btn-default">About Us</button></a>
+        <a href="https://team-alpaca.herokuapp.com/Content/HowToInstallIDE.php"><button type="button" class="btn btn-default">TN3270</button></a>
     	</div>
     	<div class="container-fluid home-content1">
     		<div class="row">

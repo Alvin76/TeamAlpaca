@@ -57,6 +57,8 @@ function head(){
   </head>';
   echo $head;
 }
+
+
 /*
 function getTodaysComic(){
 $url = "https://xkcd.com/info.0.json";
