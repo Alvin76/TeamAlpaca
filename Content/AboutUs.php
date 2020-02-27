@@ -64,7 +64,7 @@
                                 <div class="card">
                                     <div class="card-body text-center mt-4">
                                         <h4 class="card-title">Adam</h4>
-                                        <p class="card-text">Adam Description</p>
+                                        <p class="card-text">Adam is the lead on COBOL and JCL programing for this team, he also like alpacas. </p>
                                         <ul class="list-inline">
                                             <li class="list-inline-item">
                                                 <a class="social-icon text-xs-center" target="_blank" href="https://github.com/Alvin76">

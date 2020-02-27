@@ -1,0 +1,3 @@
+The APGM1J is the JCL to run the COBOL, you must change the source to run the program.
+For the COBOL files that have not been finished there is a not at the top of the page on what it is to do.
+Please finish the programs and upload them into the github account. 
