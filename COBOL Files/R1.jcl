@@ -24,12 +24,9 @@
 //SYSDUMP    DD DUMMY                                                   00240003
 // ENDIF                                                                00250000
 //                                                                      00260000
-//* NOTE OF CHANGES TO JCL FILE                                         00270041
-//* 2020-02-20 ~ DATE OF CHANGE                                         00271041
-//* CHANGES C3111 TO C3156                                              00280041
-//* CHANGED QQ TO 27 IT MIGHT NEED TO BE FIXED AS NUMBER IS 0127 != 002700290041
-//* CHANGE NUMBER CSU00&ID TO CSU0&ID AND ID = 127                      00300043
-//* JCL IS ABLE TO RUN WITH THESES CHANGES                              00310044
-//* THERE IS FILE READ ERRORS BASIC IS NOT TAKING IN DATA LOOKING @ JCL 00320045
-//* LINE 2000                                                           00330047
-//*                                                                     00340047
+//*This is a required file that is not part of COBOL but it is needed   00330047
+//*THE PROGRAMS WILL NOT RUN WITHOUT THIS FILE!                         00340047
+//*NOTE! CHANGE THE NUMBER TO YOUR ID NUMBER TO RUN                     00340047
+//*THE SET SOURCE MUST BE SET TO THE PROGRAMS NAME                      00340047
+//*THIS PROGRAM HAS BEEN EDITED TO RUN OUR COBOL PROGRAMS OTHER...      00340047
+//*... MIGHT NOT WORK OR RUN. NOTE! WE WILL NOT COVER JCL LEARNING.      00340047
