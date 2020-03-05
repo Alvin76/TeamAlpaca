@@ -6,7 +6,7 @@
 000600*DATE-WRITTEN.  FEB 23, 2020.                                     00060041
 000700*DATE-COMPILED.                                                   00070041
 000710*****************************************************             00071042
-000720*   PROGRAM IS HOW TO ADD TO THE SAME LINE FOR PRINT*             00072042
+000720*THIS PROGRAM WILL DO "ADD" & "SUBTRACT" FUNCTIONS  *             00072042
 000730*****************************************************             00073042
 000800                                                                  00080041
 000900 ENVIRONMENT DIVISION.                                            00090041
