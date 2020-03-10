@@ -12,6 +12,7 @@
             <ul>
               <li>Assitance and advice from Dr. Rodgers.</li>
               <li>Access to a mainframe provided by the school.</li> 
+              <li>A series of youtube videos about cobol <a href="https://www.youtube.com/watch?v=uZUkSV__SdY&list=PLWPirh4EWFpEwRypgRSofF7Ui91yeCeMi"></li>
             </ul> 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
