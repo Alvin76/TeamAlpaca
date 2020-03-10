@@ -9,6 +9,10 @@
            <a class="navbar-brand" href="#">
             <img src="../Images/mystic.png" width="40" height="30" class="d-inline-block align-top" alt="">
             Team Alpaca</a>
+            <ul>
+              <li>Assitance and advice from Dr. Rodgers.</li>
+              <li>Access to a mainframe provided by the school.</li> 
+            </ul> 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
