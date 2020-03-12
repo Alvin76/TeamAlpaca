@@ -52,7 +52,7 @@
 <div class="row">
   <div class="col-lg-6 mb-4">
     <div class="card h-100">
-      <a href="#"><img class="card-img-top" src="https://team-alpaca.herokuapp.com/Images/easy1IdDivision.PNG" alt=""></a>
+      <a href="#"><img class="card-img-top" src="https://team-alpaca.herokuapp.com/Images/easy1IdDivision.PNG" alt="whatwhat!"></a>
       <div class="card-body">
         <h4 class="card-title">
           <h3>TN3270</h3>
@@ -63,7 +63,7 @@
   </div>
   <div class="col-lg-6 mb-4">
     <div class="card h-100">
-      <a href="#"><img class="card-img-top" src="https://team-alpaca.herokuapp.com/Images/Instalation/SetupInstall.PNG" alt=""></a>
+      <a href="#"><img class="card-img-top" src="https://team-alpaca.herokuapp.com/Images/easy1IdDivision.PNG" alt=""></a>
       <div class="card-body">
         <h4 class="card-title">
           <h3>Acquisition & Installation</h3>
