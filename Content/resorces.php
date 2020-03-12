@@ -14,11 +14,7 @@
            <a class="navbar-brand" href="#">
             <img src="../Images/mystic.png" width="40" height="30" class="d-inline-block align-top" alt="">
             Team Alpaca</a>
-            <ul>
-              <li>Assitance and advice from Dr. Rodgers.</li>
-              <li>Access to a mainframe provided by the school.</li>
-              <li>A series of youtube videos about cobol <a href="https://www.youtube.com/watch?v=uZUkSV__SdY&list=PLWPirh4EWFpEwRypgRSofF7Ui91yeCeMi">Video</a></li>
-            </ul>
+
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -42,5 +38,13 @@
             </ul>
           </div>
     </nav>
+    <main>
+      <ul>
+        <li>Assitance and advice from Dr. Rodgers.</li>
+        <li>Access to a mainframe provided by the school.</li>
+        <li>A series of youtube videos about cobol <a href="https://www.youtube.com/watch?v=uZUkSV__SdY&list=PLWPirh4EWFpEwRypgRSofF7Ui91yeCeMi">Video</a></li>
+        <li></li>
+      </ul>
+    </main>
   </body>
 </html>
