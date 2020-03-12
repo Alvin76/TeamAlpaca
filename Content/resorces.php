@@ -44,8 +44,10 @@
         <li>Access to a mainframe provided by the school.</li>
         <li>A series of youtube videos about cobol <a href="https://www.youtube.com/watch?v=uZUkSV__SdY&list=PLWPirh4EWFpEwRypgRSofF7Ui91yeCeMi">Video</a></li>
         <li>A list of COBOL key words that used <a href="https://www.ibm.com/support/knowledgecenter/zh/SSZJPZ_9.1.0/com.ibm.swg.im.iis.ds.mfjob.dev.doc/topics/r_dmnjbref_COBOL_Reserved_Words.html"></a>IBM KEYWORDS</li>
-        <li></li>
+        <li>CPSC3111 is a class on COBOL</li>
       </ul>
+      <h2>NOTE COBOL CODE</h2>
+      <p>Used notes from the COBOL classes and JCL classes to make this project work.</p>
     </main>
   </body>
 </html>
