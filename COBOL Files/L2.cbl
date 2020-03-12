@@ -1,5 +1,5 @@
 000100 IDENTIFICATION DIVISION.                                         00010001
-000200 PROGRAM-ID.    HELLOW.                                           00020045
+000200 PROGRAM-ID.    HELLO.                                            00020045
 000300 AUTHOR.        CSU0127 ADAM DAVIES.                              00030037
 000400*INSTALLATION.  CSU.                                              00040004
 000500*SECURITY.      UNCLASSIFIED.                                     00050002
