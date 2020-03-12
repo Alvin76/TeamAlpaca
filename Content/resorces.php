@@ -2,7 +2,12 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <?php require '../includes/functions.php';?>
+    <title>resorces</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../template/home.css">
   </head>
   <body>
     <nav class="navbar navbar-dark primary-color">
@@ -11,9 +16,9 @@
             Team Alpaca</a>
             <ul>
               <li>Assitance and advice from Dr. Rodgers.</li>
-              <li>Access to a mainframe provided by the school.</li> 
+              <li>Access to a mainframe provided by the school.</li>
               <li>A series of youtube videos about cobol <a href="https://www.youtube.com/watch?v=uZUkSV__SdY&list=PLWPirh4EWFpEwRypgRSofF7Ui91yeCeMi">Video</a></li>
-            </ul> 
+            </ul>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
