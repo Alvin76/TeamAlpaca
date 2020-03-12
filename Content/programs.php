@@ -20,7 +20,23 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-         
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="https://team-alpaca.herokuapp.com/Content/home.php">Home
+
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://team-alpaca.herokuapp.com/Content/AboutUs.php">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://team-alpaca.herokuapp.com/Content/HowToInstallIDE.php">TN3270</a>
+               <span class="sr-only">(current)</span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">COBOL</a>
+            </li>
+          </ul>
         </div>
   </nav>
 
@@ -36,7 +52,7 @@
 <div class="row">
   <div class="col-lg-6 mb-4">
     <div class="card h-100">
-      <a href="#"><img class="card-img-top" src="https://team-alpaca.herokuapp.com/Images/Instalation/SetupLocation.PNG" alt=""></a>
+      <a href="#"><img class="card-img-top" src="https://team-alpaca.herokuapp.com/Images/easy1IdDivision.PNG" alt=""></a>
       <div class="card-body">
         <h4 class="card-title">
           <h3>TN3270</h3>
