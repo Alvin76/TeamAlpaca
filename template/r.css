@@ -1,0 +1,50 @@
+body {
+  background-color: #000000 !important;
+
+}
+
+h1
+{
+  color: #00ff00;
+}
+small
+{
+  color: #00ff00;
+}
+h3 {
+  color:  #0047AB;
+}
+.navbar {
+  background-color: #0047AB !important;
+  color: #ffffff !important;
+}
+
+.nav-item {
+    color: #ffffff !important;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+ul
+{
+  color: #00ff00;
+  list-style: none;
+}
+
+h2, p{
+  color: #ff0000 !important;
+}
