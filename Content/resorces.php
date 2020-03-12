@@ -44,7 +44,7 @@
             </ul>
           </div>
     </nav>
-    <main>
+    <main class="center">
       <ul>
         <li>Assitance and advice from Dr. Rodgers.</li>
         <li>Access to a mainframe provided by the school.</li>
