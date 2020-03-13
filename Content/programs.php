@@ -57,7 +57,7 @@
         <h4 class="card-title">
           <h3>TN3270</h3>
         </h4>
-        <p class="card-text">TN3270 is the client needed to access the main frame, the mainframe is a computer that is that located at another location. The mainframe that we are using is the CSU’s that’s is provide by IMB in Texas. The TN3270 is one of the tools required to access the mainframe, another is eclipse but that will not be shown in this tutorial.</p>
+        <p class="card-text">Easy Program 1</p>
       </div>
     </div>
   </div>
