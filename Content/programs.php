@@ -88,7 +88,7 @@
       <a href="#"><img class="card-img-top" src="https://team-alpaca.herokuapp.com/Images/Medium1.PNG" alt=""></a>
       <div class="card-body">
         <h4 class="card-title">
-          <h3>Medium 2 Hello World and the Procedure Division</h3>
+          <h3>Medium 1 Hello World and the Procedure Division</h3>
         </h4>
         <p class="card-text">Once the other divisions are in places the programs functions and logic can be implemented in the procedure division. </p>
       </div>
@@ -96,10 +96,10 @@
   </div>
   <div class="col-lg-6 mb-4">
     <div class="card h-100">
-      <a href="#"><img class="card-img-top" src="https://team-alpaca.herokuapp.com/Images/Instalation/medium2.PNG" alt=""></a>
+      <a href="#"><img class="card-img-top" src="https://team-alpaca.herokuapp.com/Images/medium2.PNG" alt=""></a>
       <div class="card-body">
         <h4 class="card-title">
-          <h3>Medium 3 Concatenating Strings</h3>
+          <h3>Medium 2 Concatenating Strings</h3>
         </h4>
         <p class="card-text">This shows how to combine strings together and display them.</p>
       </div>
@@ -107,12 +107,12 @@
   </div>
   <div class="col-lg-6 mb-4">
     <div class="card h-100">
-      <a href="#"><img class="card-img-top" src="https://team-alpaca.herokuapp.com/Images/Instalation/LogonMainScrean.PNG" alt=""></a>
+      <a href="#"><img class="card-img-top" src="https://team-alpaca.herokuapp.com/Images/medium3.PNG" alt=""></a>
       <div class="card-body">
         <h4 class="card-title">
-          <h3>Success</h3>
+          <h3>Medium 3 Addition</h3>
         </h4>
-        <p class="card-text">Once you on this screen you have manage to successfully log into the mainframe! Congratulations!</p>
+        <p class="card-text">Addition in cobol requires that the right type of variable be used to store the data.</p>
       </div>
     </div>
   </div>
