@@ -139,6 +139,16 @@
       </div>
     </div>
   </div>
+  <div class="card h-100">
+      <a href="#"><img class="card-img-top" src="https://team-alpaca.herokuapp.com/Images/hard3.PNG" alt=""></a>
+      <div class="card-body">
+        <h4 class="card-title">
+          <h3>Creating the data division for H2</h3>
+        </h4>
+        <p class="card-text">The data division for the header is complex but necessary for the header to be used.</p>
+      </div>
+    </div>
+  </div>
 <!-- /.row -->
 </div>
 <!-- /.container -->
