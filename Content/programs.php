@@ -66,10 +66,9 @@
       <a href="#"><img class="card-img-top" src="https://team-alpaca.herokuapp.com/Images/easyEnvDivision.PNG" alt=""></a>
       <div class="card-body">
         <h4 class="card-title">
-          <h3>Acquisition & Installation</h3>
+          <h3>Easy Program 2</h3>
         </h4>
-        <p class="card-text">How you get the TN3270 vista is by downloading it, here is a link for a download, once you have downloaded the client please click on it and the windows install wizard will open.
-        For the installation please click next, that major thing you need to know is if you want to change its installation location from the C Drive</p>
+        <p class="card-text">The environment division declares the environment in which the program will run.</p>
       </div>
     </div>
   </div>
