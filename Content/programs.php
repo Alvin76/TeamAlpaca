@@ -117,6 +117,28 @@
     </div>
   </div>
 </div>
+<div class="col-lg-6 mb-4">
+    <div class="card h-100">
+      <a href="#"><img class="card-img-top" src="https://team-alpaca.herokuapp.com/Images/hard1.PNG" alt=""></a>
+      <div class="card-body">
+        <h4 class="card-title">
+          <h3>Hard 1 If Statments and conditional use of functions</h3>
+        </h4>
+        <p class="card-text">Shows the use of if statments to decide which function to execute.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6 mb-4">
+    <div class="card h-100">
+      <a href="#"><img class="card-img-top" src="https://team-alpaca.herokuapp.com/Images/medium2.PNG" alt=""></a>
+      <div class="card-body">
+        <h4 class="card-title">
+          <h3>Medium 2 Concatenating Strings</h3>
+        </h4>
+        <p class="card-text">This shows how to combine strings together and display them.</p>
+      </div>
+    </div>
+  </div>
 <!-- /.row -->
 </div>
 <!-- /.container -->
