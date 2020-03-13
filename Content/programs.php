@@ -63,7 +63,7 @@
   </div>
   <div class="col-lg-6 mb-4">
     <div class="card h-100">
-      <a href="#"><img class="card-img-top" src="https://team-alpaca.herokuapp.com/Images/easyEnvDivision.PNG" alt=""></a>
+      <a href="#"><img class="card-img-top" src="https://team-alpaca.herokuapp.com/Images/easy2EnvDivision.PNG" alt=""></a>
       <div class="card-body">
         <h4 class="card-title">
           <h3>Easy Program 2</h3>
