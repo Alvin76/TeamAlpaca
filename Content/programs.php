@@ -88,7 +88,7 @@
       <a href="#"><img class="card-img-top" src="https://team-alpaca.herokuapp.com/Images/Medium1.PNG" alt=""></a>
       <div class="card-body">
         <h4 class="card-title">
-          <h3>Hello World and the Procedure Division</h3>
+          <h3>Medium 2 Hello World and the Procedure Division</h3>
         </h4>
         <p class="card-text">Once the other divisions are in places the programs functions and logic can be implemented in the procedure division. </p>
       </div>
@@ -96,12 +96,12 @@
   </div>
   <div class="col-lg-6 mb-4">
     <div class="card h-100">
-      <a href="#"><img class="card-img-top" src="https://team-alpaca.herokuapp.com/Images/Instalation/LogonPaswordLogin.PNG" alt=""></a>
+      <a href="#"><img class="card-img-top" src="https://team-alpaca.herokuapp.com/Images/Instalation/medium2.PNG" alt=""></a>
       <div class="card-body">
         <h4 class="card-title">
-          <h3>Password</h3>
+          <h3>Medium 3 Concatenating Strings</h3>
         </h4>
-        <p class="card-text">At this screen we will type in your password, the default password is giving by Dr. Rogers, you will need to change your password to a new one that is no longer then 8char I recommend a 7 length password. One you type in your password hit enter. You should get something that looks like this</p>
+        <p class="card-text">This shows how to combine strings together and display them.</p>
       </div>
     </div>
   </div>
