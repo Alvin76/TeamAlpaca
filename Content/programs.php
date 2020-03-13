@@ -79,18 +79,18 @@
         <h4 class="card-title">
           <h3>Easy Program 3</h3>
         </h4>
-        <p class="card-text">After doing the installation click on the app to lunch it, you should get something that looks like this. Once here we will enter the IP addresss 192.86.33.118 and change the port to 623, the other options changes the views of the green screen for now don’t change that. This is what it should look like.</p>
+        <p class="card-text"> The data division is where all variables for the program are declared.</p>
       </div>
     </div>
   </div>
   <div class="col-lg-6 mb-4">
     <div class="card h-100">
-      <a href="#"><img class="card-img-top" src="https://team-alpaca.herokuapp.com/Images/easy3DataDivision.PNG" alt=""></a>
+      <a href="#"><img class="card-img-top" src="https://team-alpaca.herokuapp.com/Images/Medium1.PNG" alt=""></a>
       <div class="card-body">
         <h4 class="card-title">
-          <h3>Logging On</h3>
+          <h3>Hello World and the Procedure Division</h3>
         </h4>
-        <p class="card-text">The data division is where all variables for the program are declared.</p>
+        <p class="card-text">Once the other divisions are in places the programs functions and logic can be implemented in the procedure division. </p>
       </div>
     </div>
   </div>
