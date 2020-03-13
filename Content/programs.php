@@ -77,7 +77,7 @@
       <a href="#"><img class="card-img-top" src="https://team-alpaca.herokuapp.com/Images/Instalation/SetupTN3270.PNG" alt=""></a>
       <div class="card-body">
         <h4 class="card-title">
-          <h3>Post Installation</h3>
+          <h3>Easy Program 3</h3>
         </h4>
         <p class="card-text">After doing the installation click on the app to lunch it, you should get something that looks like this. Once here we will enter the IP addresss 192.86.33.118 and change the port to 623, the other options changes the views of the green screen for now don’t change that. This is what it should look like.</p>
       </div>
@@ -85,13 +85,12 @@
   </div>
   <div class="col-lg-6 mb-4">
     <div class="card h-100">
-      <a href="#"><img class="card-img-top" src="https://team-alpaca.herokuapp.com/Images/Instalation/LogonTSO.PNG" alt=""></a>
+      <a href="#"><img class="card-img-top" src="https://team-alpaca.herokuapp.com/Images/easy3DataDivision.PNG" alt=""></a>
       <div class="card-body">
         <h4 class="card-title">
           <h3>Logging On</h3>
         </h4>
-        <p class="card-text">First you need to request a login code from the system administrator Dr. Rogers is the system administrator for the CSU’s mainframe. After receiving a user ID you can now enter “logon CSU00QQ” into the mainframe (Please note the QQ is your user ID). You should have something that looks like this
-</p>
+        <p class="card-text">The data division is where all variables for the program are declared.</p>
       </div>
     </div>
   </div>
