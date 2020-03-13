@@ -55,9 +55,9 @@
       <a href="#"><img class="card-img-top" src="https://team-alpaca.herokuapp.com/Images/easy1IdDivision.PNG" alt="whatwhat!"></a>
       <div class="card-body">
         <h4 class="card-title">
-          <h3>TN3270</h3>
+          <h3>Easy Program 1</h3>
         </h4>
-        <p class="card-text">Easy Program 1</p>
+        <p class="card-text">This is an example identification division. It is required for all cobal programs. Because simply laying the foundation for a cobal program is complex and requires well over 100 lines of code we felt that it was appropriate for our easy programs to demonstrate how to do some of these basic sections.</p>
       </div>
     </div>
   </div>
