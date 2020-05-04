@@ -45,6 +45,7 @@
 010800     .                                                            01080002
 010900 400-CALCULATE-TOTALS                                             01090017
 010901     *PERFROM LOOP HERE                                           01090118
+           TOTALWASTE = TOTALWASTE + WASTEPERDAY * QUANTITY
 010910     COMPUTE UNITTOTAL = PRICE * QUANTITY.                        01091018
 010920     COMPUTE INVENTORYPRICE = INVENTORYPRICE + PRICE * QUANTITY.  01092018
 010921     COMPUTE DAYS = INVENTORY / (UNITPERDAY + WASTEPERDAY).       01092118
