@@ -97,6 +97,8 @@
 009790
 010900 400-CALCULATE-TOTALS                                             01090017
 010910     COMPUTE FR-UNIT-TOTAL = FR-COST * PR-UNITS                   01091018
+000000     COMPUTE FR-WASTE-TOTAL = FR-WASTETOTAL +  FR-WASTE-DAY       
+             * PR-UNITS                                                 00000000     
 010920     COMPUTE FR-INVENTORY-PRICE = FR-INVENTORY-PRICE +
              FR-COST * PR-UNITS                                         01092018
 010921     COMPUTE DAYS = FR-UNITS / (FR-UNITS-DAY + FR-WASTE-DAY)      01092118
