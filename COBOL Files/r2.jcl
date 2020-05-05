@@ -4,7 +4,7 @@
 //***** PLEASE DO NOT EDIT ANYTHING ABOVE THIS LINE ******              00031050
 //         SET  ID=127                                                  00040043
 //* TAYLOR & EVAN CHANGE THE NUMBER TO YOURS FOR THIS TO WORK!          00050050
-//         SET  SOURCE=BASIC                                            00060049
+//         SET  SOURCE=H1                                               00060052
 //* TAYLOR & EVAN THE SOURCE IS THE PROGRAMS NAME                       00061050
 //***** PLEASE DO NOT EDIT ANYTHING BELOW THIS LINE ******              00062050
 //         SET  PRGNAME=PRGM&ID                                         00080038
@@ -19,8 +19,8 @@
 //*                                                                     00170000
 // IF (RC = 00) THEN                                                    00180003
 //STEP020  EXEC PGM=&PRGNAME                                            00190000
-//SYINFILE   DD DSN=CSU0&ID..C3156.COBOL(MKTSAMP),DISP=SHR              00200050
-//*YINFILE   DD DSN=CSU.PUBLIC.DATA(FRIDGE),DISP=SHR                    00210051
+//*YINFILE   DD DSN=CSU0&ID..C3156.COBOL(MKTSAMP),DISP=SHR              00200052
+//SYINFILE   DD DSN=CSU.PUBLIC.DATA(FRIDGE),DISP=SHR                    00210052
 //* THIS SHOULD BE THE PUBLIC LIBARY/NOT LOCAL                          00211050
 //MYREPORT   DD SYSOUT=*,OUTLIM=2500                                    00220003
 //SYSUDUMP   DD DUMMY                                                   00230003
