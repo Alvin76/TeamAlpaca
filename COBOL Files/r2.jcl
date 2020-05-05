@@ -19,9 +19,10 @@
 //*                                                                     00170000
 // IF (RC = 00) THEN                                                    00180003
 //STEP020  EXEC PGM=&PRGNAME                                            00190000
-//*YINFILE   DD DSN=CSU0&ID..C3156.COBOL(MKTSAMP),DISP=SHR              00200052
-//SYINFILE   DD DSN=CSU.PUBLIC.DATA(FRIDGE),DISP=SHR                    00210052
+//SYINFILE   DD DSN=CSU0&ID..C3156.COBOL(FRIDGE),DISP=SHR               00200054
+//*YINFILE   DD DSN=CSU.PUBLIC.DATA(FRIDGE),DISP=SHR                    00210053
 //* THIS SHOULD BE THE PUBLIC LIBARY/NOT LOCAL                          00211050
+//*YINFILE   DD DSN=CSU.PUBLIC.DATA(MARKET),DISP=SHR                    00212054
 //MYREPORT   DD SYSOUT=*,OUTLIM=2500                                    00220003
 //SYSUDUMP   DD DUMMY                                                   00230003
 //SYSDUMP    DD DUMMY                                                   00240003

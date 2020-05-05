@@ -18,14 +18,14 @@
 001700                                                                  00180002
 001800 INPUT-OUTPUT SECTION.                                            00190000
 001900                                                                  00200001
-002000 FILE-CONTROL.                                                    00210000
-002100     SELECT FRIDGE               	 ASSIGN TO MYINFILE.            00220022
+002000 FILE-CONTROL.                                                    00210045
+           SELECT FRIDGE-FILE            ASSIGN TO MYINFILE.            00211051
 002200     SELECT PRINT-FILE             ASSIGN TO MYREPORT.            00230022
 002300                                                                  00240000
 002400 DATA DIVISION.                                                   00250000
 002500 FILE SECTION.                                                    00260000
 002600                                                                  00270000
-002700 FD  FRIDGE                                                       00280000
+002700 FD  FRIDGE-FILE                                                  00280052
 002800     RECORDING MODE IS F.                                         00290000
 002900 01  FRIDGE-REC.                                                  00300001
 003000     10  FILLER                    PIC X(080).                    00310022
@@ -53,8 +53,17 @@
 004542     10  FR-WASTE-DAY              PIC S9(03)    VALUE 0.         00530029
 004541     10  FR-UNIT-TOTAL             PIC S9(05)    VALUE 0.         00540029
 004542     10  FR-INVENTORY-PRICE        PIC S9(03)V99 VALUE 0.         00550029
-004541     10  FR-TOTAL-WASTE            PIC S9(03)V99 VALUE 0.         00560029
+004541     10  FR-WASTE-TOTAL            PIC S9(03)V99 VALUE 0.         00560047
 004542     10  FR-WEEK-ORDER             PIC S9(03)V99 VALUE 0.         00570029
+                                                                        00571055
+       01  WS-FRIDGE-REC                 VALUE SPACES.                  00572056
+           10  FRP-NAME                  PIC X(17).                     00573056
+           10  FRP-CATEGORY              PIC X(10).                     00574056
+           10  FRP-UNITS                 PIC S9(5).                     00575056
+           10  FRP-COST                  PIC S9(03)V99.                 00576056
+           10  FRP-UNITPERDAY            PIC 9(03).                     00577056
+           10  FRP-WATEPERDAY            PIC 9(03).                     00578056
+           10  FILLER                    PIC X(37).                     00579056
 004700                                                                  00580005
 004800 01  WS-PRINT-REC                  VALUE SPACES.                  00590022
 004810     05  PR-FIDGE.                                                00600028
@@ -70,25 +79,28 @@
 005800         10  PR-UNITS-DAY          PIC ZZ9.                       00700030
 005900         10  FILLER                PIC X(02).                     00710025
 005910         10  PR-WASTE-DAY          PIC ZZ9.                       00720025
-005920         10  FILLER                PIC X(27).                     00730029
+005920         10  FILLER                PIC X(24).                     00730060
 006000 PROCEDURE DIVISION.                                              00740002
 008600                                                                  00750002
 008700*****************************************************             00760002
 008800*   MAIN PROGRAM ROUTINE                            *             00770002
 008900*****************************************************             00780002
 009000 010-START-HERE.                                                  00790043
-009010     OPEN INPUT FRIDGE     										                             00800043
+           OPEN INPUT FRIDGE-FILE                                       00791051
 009020     OPEN OUTPUT PRINT-FILE                                       00810043
 009030     PERFORM 100-READ-INPUT                                       00820043
 009040     PERFORM 150-PROCESS-DATA                                     00830043
-009050       UNTIL EOF-FLAG = "YES"                                     00840043
-009060     PERFORM 900-PRINT-FINAL-TOTALS                               00850043
+009050       UNTIL EOF-FLAG = 'YES'                                     00840050
+           PERFORM 900-PRINT-FINAL-TOTALS                               00850057
+           CLOSE FRIDGE-FILE                                            00851057
+           CLOSE PRINT-FILE                                             00852057
+           GOBACK                                                       00853058
 009400     .                                                            00860043
 009600                                                                  00870043
 009610 100-READ-INPUT.                                                  00880043
-009620     READ FRIDGE INTO FRIDGE-REC                                  00890043
+009620     READ FRIDGE-FILE INTO WS-FRIDGE-REC                          00890054
 009630       AT END                                                     00900043
-009640     MOVE "YES" TO EOF-FLAG                                       00910043
+009640     MOVE 'YES' TO EOF-FLAG                                       00910048
 009650     END-READ                                                     00920043
 009660     ADD 1 TO REC-COUNT                                           00930043
 009670     .                                                            00940043
@@ -105,15 +117,10 @@ CC9750     MOVE FR-WASTE-DAY TO PR-WASTE-DAY                            01020043
 009780     .                                                            01050043
 009790                                                                  01060043
 010900 400-CALCULATE-TOTALS.                                            01070043
-010910     COMPUTE FR-UNIT-TOTAL = FR-COST * PR-UNITS                   01080018
-010911     COMPUTE FR-WASTE-TOTAL = FR-WASTETOTAL +  FR-WASTE-DAY       01090043
-010912* PR-UNITS                                                        01100043
-010920     COMPUTE FR-INVENTORY-PRICE = FR-INVENTORY-PRICE +            01110043
-010921       FR-COST * PR-UNITS                                         01120043
-010922     COMPUTE DAYS = FR-UNITS / (FR-UNITS-DAY + FR-WASTE-DAY)      01130043
-010930     COMPUTE FR-UNITS = FR-UNITS -                                01140043
-010935       (FR-UNITS-DAY + FR-WASTE-DAY)                              01150043
-010940     COMPUTE FR-WEEK-ORDER = (FR-UNITS-DAY + FR-WASTE-DAY) * 7    01160018
+010910     MULTIPLY FR-COST BY FR-UNITS GIVING FR-INVENTORY-PRICE       01080049
+010911     MULTIPLY FR-WASTE-DAY BY 7 GIVING FR-WASTE-TOTAL             01090049
+010920     MULTIPLY FR-UNITS BY 7 GIVING FR-UNIT-TOTAL                  01110049
+010940     MULTIPLY FR-UNITS-DAY BY 7 GIVING FR-WEEK-ORDER              01160049
 010941     .                                                            01170043
 010942                                                                  01180043
 011000 700-PRINT-LINE.                                                  01190017
@@ -132,7 +139,7 @@ CC9750     MOVE FR-WASTE-DAY TO PR-WASTE-DAY                            01020043
 033800 900-PRINT-FINAL-TOTALS.                                          01320043
 033900     MOVE FR-UNIT-TOTAL TO PR-UNITS                               01330043
 034000     MOVE FR-INVENTORY-PRICE TO PR-COST                           01340043
-034100     MOVE FR-TOTAL-WASTE TO PR-UNITS-DAY                          01350043
+034100     MOVE FR-WASTE-TOTAL TO PR-UNITS-DAY                          01350048
 034200     MOVE FR-WEEK-ORDER TO PR-WASTE-DAY                           01360043
 034500     MOVE '    FINAL TOTALS' TO PR-ITEM-NAME                      01370043
 034600     PERFORM 700-PRINT-LINE                                       01380043
